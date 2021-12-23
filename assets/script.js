@@ -32,11 +32,11 @@ var spec = false;
 function generatePassword() {
   // initialize empty string for password
   let password ="";
-  let length = prompt("how long would you like the password to be?");
+  let length = prompt("Please enter a password length between 8-128.");
 
   // conditional to alert the user if the size isn't between 8 or 128
   if(length < 8 || length > 128) {
-    alert("please choose a length BETWEEN 8 and 128")
+    alert("Please choose a length BETWEEN 8 and 128.")
     generatePassword();
   } else {
     var newTotalArr = chooseChar();
