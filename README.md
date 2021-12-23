@@ -1,4 +1,4 @@
-# Passwork_Generator
+# Password_Generator
 
 ## Table of Contents
 1. [General Info](#general-info)
