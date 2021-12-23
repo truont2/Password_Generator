@@ -14,7 +14,7 @@ In this project I, I learned how to concatenate arrays, user Web API's, and defi
 
 
 ### Screenshots
-Password Generated using all 4 character sets with a length of 10 chracters.
+Password Generated using all 4 character sets with a length of 10 characters.
 
 ![website screenshot](./images/length.PNG)
 ![website screenshot](./images/prompt1.PNG)
@@ -28,5 +28,6 @@ https://truont2.github.io/Password_Generator/
 
 ### Resources
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN
 
 
