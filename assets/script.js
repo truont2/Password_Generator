@@ -37,6 +37,8 @@ function generatePassword() {
   let length = prompt("Please enter a password length between 8-128.");
 
   // check if the length typed is a string or a number value
+    // if the value is false, it means the user input was a integer
+    // if true, the user input was a string and an alert is activated
   if(isNaN(length) === false) {
     // conditional to alert the user if the size isn't between 8 or 128
     if(length < 8 || length > 128) {
